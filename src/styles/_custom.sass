@@ -1,19 +1,108 @@
-.banner-principal-decorativo
+.decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: rotate 3.5s linear infinite
     position: absolute
-    top: 40%
-    right: 50%
+    top: 10%
+    right: 10%
+    width: 90%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: translate 2.8s linear infinite
     position: absolute
-    top: 51%
-    right: 30%
+    top: 41%
+    right: 83%
+    transform-origin: 250%
+    width: 20%
+  &-3
+    animation: translate 5.8s ease-in-out infinite alternate
+    position: absolute
+    top: 45%
+    right: 93%
+    transform-origin: 480%
+    width: 10%
 
-
-@keyframes float1
+@keyframes translate
   0%
-    transform: translateY(20px)
+    transform: rotate(0deg)
 
   100%
-    transform: translateY(0px)
+    transform: rotate(360deg)
+@keyframes rotate
+  0%
+    transform: rotate(0deg)
+
+  100%
+    transform: rotate(360deg)
+
+.banner-principal__img, .decorativo
+  max-width: 420px
+
+// Colores
+
+.cp
+  color: $color-primario
+.fcp
+  background-color: $color-primario
+
+.cs
+  color: $color-secundario
+.fcs
+  background-color: $color-secundario
+
+.cac
+  color: $color-acento-contenido
+.fcac
+  background-color: $color-acento-contenido
+
+.cab
+  color: $color-acento-botones
+.fcab
+  background-color: $color-acento-botones
+
+h1,h2,h3,h4,h5,h6,p,ul,li,span,strong
+  &.cst
+    color: $color-sistema-texto !important
+
+// otros
+
+.img-infografica-b__modal
+  background-color: transparent !important
+
+.crd_hover_txt
+  position: relative
+  padding: 0 !important
+  overflow: hidden !important
+  &--body
+    width: 100%
+    position: absolute
+    padding: 1.5rem
+    bottom: 0
+    transition: all .5s ease-in-out
+    transform: translateY(calc(100% - 3.85rem))
+  &:hover
+    .crd_hover_txt--body
+      transition: all .5s ease-in-out
+      transform: translateY(0) !important
+  &.color-primario
+    .crd_hover_txt--body
+      background-color: rgba($color-primario,.9)
+      h1,h2,h3,h4,h5,h6,p,i,li
+        color: white !important
+  &.color-secundario
+    .crd_hover_txt--body
+      background-color: rgba($color-secundario,.9)
+      h1,h2,h3,h4,h5,h6,p,i,li
+        color: white !important
+  &.color-acento-contenido
+    .crd_hover_txt--body
+      background-color: rgba($color-acento-contenido,.9)
+  &.color-acento-botones
+    .crd_hover_txt--body
+      background-color: rgba($color-acento-botones,.9)
+
+.img-infografica-b__modal__btn-cerrar
+  background-color: $color-primario !important
+  border-radius: 50%
+  padding: .75rem
+  transition: .25s
+  &:hover
+    transform: scale(1.2)

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="227" height="227" viewBox="0 0 227 227">
+  <g id="Grupo_172874" data-name="Grupo 172874" transform="translate(-1105 -7696.957)">
+    <circle id="Elipse_6321" data-name="Elipse 6321" cx="113.5" cy="113.5" r="113.5" transform="translate(1105 7696.957)" fill="#fda929"/>
+    <g id="Grupo_160510" data-name="Grupo 160510" transform="translate(964 7554.457)">
+      <g id="Grupo_160509" data-name="Grupo 160509">
+        <line id="Línea_1033" data-name="Línea 1033" x2="149.077" transform="translate(181.462 313)" fill="none" stroke="#12263f" stroke-miterlimit="10.039" stroke-width="7"/>
+        <path id="Trazado_269967" data-name="Trazado 269967" d="M247.231,286.692h17.538V313H194.615V286.692h17.538" fill="none" stroke="#12263f" stroke-miterlimit="10.039" stroke-width="7"/>
+        <rect id="Rectángulo_298022" data-name="Rectángulo 298022" width="35.077" height="17.538" transform="translate(212.154 277.923)" fill="none" stroke="#12263f" stroke-miterlimit="10.039" stroke-width="7"/>
+        <rect id="Rectángulo_298023" data-name="Rectángulo 298023" width="30.692" height="26.308" transform="translate(286.692 269.154)" fill="none" stroke="#12263f" stroke-miterlimit="10.039" stroke-width="7"/>
+        <line id="Línea_1034" data-name="Línea 1034" y2="17.538" transform="translate(286.692 295.462)" fill="none" stroke="#12263f" stroke-miterlimit="10.039" stroke-width="7"/>
+        <line id="Línea_1035" data-name="Línea 1035" y2="17.538" transform="translate(317.385 295.462)" fill="none" stroke="#12263f" stroke-miterlimit="10.039" stroke-width="7"/>
+        <path id="Trazado_269968" data-name="Trazado 269968" d="M242.846,225.308H212.154L199,216.538h0l13.154-8.769h30.692Z" fill="none" stroke="#12263f" stroke-miterlimit="10.039" stroke-width="7"/>
+        <line id="Línea_1036" data-name="Línea 1036" x1="17.538" transform="translate(181.462 216.538)" fill="none" stroke="#12263f" stroke-miterlimit="10.039" stroke-width="7"/>
+        <path id="Trazado_269969" data-name="Trazado 269969" d="M299.846,216.538a8.773,8.773,0,0,1-8.769,8.77H269.154a17.545,17.545,0,0,1-15.191,8.769H242.846V199h11.117a17.53,17.53,0,0,1,15.191,8.769h21.923A8.769,8.769,0,0,1,299.846,216.538Z" fill="none" stroke="#12263f" stroke-miterlimit="10.039" stroke-width="7"/>
+        <line id="Línea_1037" data-name="Línea 1037" y2="17.538" transform="translate(282.308 207.769)" fill="none" stroke="#12263f" stroke-miterlimit="10.039" stroke-width="7"/>
+        <path id="Trazado_269970" data-name="Trazado 269970" d="M295.462,216.538h8.769a13.154,13.154,0,0,1,13.154,13.154v8.77a13.153,13.153,0,0,0,13.153,13.153h0" fill="none" stroke="#12263f" stroke-miterlimit="10.039" stroke-width="7"/>
+      </g>
+    </g>
+  </g>
+</svg>
