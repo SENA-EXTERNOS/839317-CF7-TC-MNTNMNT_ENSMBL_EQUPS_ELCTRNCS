@@ -321,7 +321,7 @@
 
     .col-md-8.mx-auto.mb-5
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-        h5 Figura 2.
+        h5 Figura 2
         br
         em Etapas en el proceso de reflujo
       ImagenInfografica.color-secundario.mb-5
