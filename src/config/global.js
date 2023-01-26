@@ -188,7 +188,7 @@ export default {
       tema:
         'Ensamble y documentación de componentes sobre tarjetas electrónicas',
       referencia:
-        'IPC Build Electronics Better. (01 de 06 de 2016). IPC-1601A: <em>Guía para el manejo y almacenamiento de tarjetas impresas.</em> ',
+        'IPC Build Electronics Better. (2016). <em>IPC-1601A: Guía para el manejo y almacenamiento de tarjetas impresas.</em> ',
       tipo: 'Norma',
       link: 'http://www.ipc.org/TOC/ipc-1601A-SP-TOC.pdf',
     },
@@ -196,7 +196,7 @@ export default {
       tema:
         'Ensamble y documentación de componentes sobre tarjetas electrónicas',
       referencia:
-        'IPC Build Electronics Better. (01 de 03 de 2019). IPC-2591: <em>Intercambio en fábricas conectadas (CFX).</em> ',
+        'IPC Build Electronics Better. (2019). <em>IPC-2591: Intercambio en fábricas conectadas (CFX).</em>',
       tipo: 'Norma',
       link: 'http://www.ipc.org/TOC/IPC-2591-Spanish-toc.pdf',
     },

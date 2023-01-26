@@ -28,7 +28,7 @@
             p Doñate (2018), indica que:
             br
             i.fas.fa-quote-left
-            p.mb-0: Una tarjeta de circuito impreso o también llamada PCB (
+            p.mb-0 Una tarjeta de circuito impreso o también llamada PCB (
               em Printed Circuit Board
               | ), es una placa o superficie donde se ensamblan y conectan eléctricamente diversos componentes electrónicos por medio de pistas de cobre.
             i.fas.fa-quote-right
@@ -407,14 +407,14 @@
       h2 1.3 Normativa técnica
 
     .bg1
-      .col-md-10.mx-auto 
-        .tarjeta.color-secundario.p-3.mb-5.d-flex.justify-content-center
-          .row.justify-content-center.align-items-center
+      .col-md-9.mx-auto 
+        .tarjeta.color-secundario.p-3.mb-5
+          .row.justify-content-between.align-items-center
             .col-3.col-sm-2.col-lg-1
               img(src="@/assets/curso/temas/t1/f42.svg")
             .col
               .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
+                .col-9.mb-3.mb-sm-0
                   p Para entender la importancia de una norma aplicada al diseño, ensamble y documentación de tarjetas electrónicas lo invitamos a leer el documento “Normativa técnica”. Para acceder al documento haga clic en Descargar.
                 .col.mb-3.mb-sm-0
                   a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('downloads/CF07_839317_Anexo1.pdf')" target="_blank" type="application/pdf")
