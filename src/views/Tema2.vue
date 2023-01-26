@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Ensamble y documentación de componentes sobre tarjetas electrónicas de acuerdo a procedimientos y normativas
+      h1 Ensamble y documentación de componentes sobre tarjetas electrónicas
 
     .col-md-10.mx-auto.mb-5
       .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
@@ -48,7 +48,7 @@
               em software 
               | que integra cada una de las etapas y da la posibilidad de obtener procesos estandarizados y precisos.
 
-    p Ahora lo invitamos a conocer algunas de las técnicas, características, métodos de uso y configuraciones de equipos de ensamble electrónicos.
+    p Ahora lo invitamos a conocer algunas de las técnicas, características, métodos de uso y configuraciones, de equipos de ensambles electrónicos:
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--secundario bg-c-r")
       .row.justify-content-around.align-items-center(titulo="Técnicas y sistemas de microscopias")
@@ -228,21 +228,21 @@
           .mb-4.mx-auto
             img.mx-auto(src='@/assets/curso/temas/t2/f16.svg' alt='AvatarTop', style='height:150px;width:auto')
             .p-4
-              h4.text-center Estaño SnPB 60/40
+              h6.text-center Estaño SnPB 60/40
               p.text-center Se compone de 60% de estaño y 40% de plomo, con un punto de fusión de 183°C.
       .col-md-3
         .tarjeta.mb-5.p-4(style="background-color: #E0EFFB")
           .mb-4.mx-auto
             img.mx-auto(src='@/assets/curso/temas/t2/f17.png' alt='AvatarTop' style='height:150px;width:auto')
             .p-4
-              h4.text-center Estaño SAC305
+              h6.text-center Estaño SAC305
               p.text-center Se compone de 96.5% de estaño, 3% de plata y un 0.5 de cobre, con un punto de fusión de 220°C.
       .col-md-3
         .tarjeta.mb-5.p-4(style="background-color: #E0EFFB")
           .mb-4.mx-auto
             img.mx-auto(src='@/assets/curso/temas/t2/f18.svg' alt='AvatarTop' style='height:150px;width:auto')
             .p-4
-              h4.text-center Estaño SnPbAg
+              h6.text-center Estaño SnPbAg
               p.text-center Se compone de 62% de estaño, 36% de plomo y 2% de plata, con un punto de fusión de 190°C.
 
     h3.titulo-tercero(data-aos='fade-right')

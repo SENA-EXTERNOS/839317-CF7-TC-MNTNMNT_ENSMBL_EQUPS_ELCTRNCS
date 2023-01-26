@@ -3,10 +3,6 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-      h5 Diseño, ensamble y documentación de tarjetas electrónicas.
-      br
-      span Diseño, ensamble y documentación de tarjetas electrónicas.
 
     p El siguiente diagrama le permitirá reconocer los saberes desarrollados en este componente formativo.
 

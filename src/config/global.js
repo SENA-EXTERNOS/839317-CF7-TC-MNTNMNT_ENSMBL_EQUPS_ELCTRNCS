@@ -1,9 +1,9 @@
-import titulo from './titulo'
 export default {
   global: {
-    componenteFormativo: titulo,
+    componenteFormativo:
+      'Diseño, ensamble y documentación de tarjetas electrónicas',
     descripcionCurso:
-      'Este componente formativo permite visualizar el diseño, desarrollo e implementación de las tarjetas electrónicas, conocidas como PCB, las cuales son el núcleo de cualquier dispositivo tecnológico, ya que soportan y programan los componentes electrónicos a través de caminos de cobre interconectados de manera predeterminada, permitiendo el correcto funcionamiento de cada uno de ellos, según las normas establecidas para este propósito.',
+      'Este componente formativo permite visualizar el diseño, desarrollo e implementación de las tarjetas electrónicas, conocidas como PCB, las cuales son el núcleo de cualquier dispositivo tecnológico, debido a que soportan y programan los componentes electrónicos a través de caminos de cobre interconectados de manera predeterminada, permitiendo el correcto funcionamiento de cada uno de ellos, según las normas establecidas para este propósito.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-img.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/banner-bg.png'),
     imagenesDecorativasBanner: [
@@ -139,15 +139,15 @@ export default {
   },
   complementario: [
     {
-      tema: 'Desarrollo y construcción de prototipos electrónicos.',
+      tema: 'Alistamiento y preparación de tarjetas electrónicas.',
       referencia:
-        'Serna R. A., & García G. J. (2000). Desarrollo y construcción de prototipos electrónicos. Madrid: Paraninfo. ',
+        'Serna R. A., & García G. J. (2000). <em>Desarrollo y construcción de prototipos electrónicos. Madrid:</em> Paraninfo. ',
       tipo: 'Libro',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000034022&context=L&vid=SENA&lang=es_ES&search_scope=sena_completo&adaptor=Local%20Search%20Engine&tab=sena_completo&query=any,contains,dise%C3%B1o%20de%20pcb&offset=10',
     },
     {
-      tema: 'Descripción, fabricación y montaje de una PCB',
+      tema: 'Alistamiento y preparación de tarjetas electrónicas ',
       referencia:
         'Jordana, J. B. (2018). Descripción, fabricación y montaje de una PCB. d',
       tipo: 'Informe de investigación',
@@ -155,48 +155,49 @@ export default {
         'https://dspace.uib.es/xmlui/bitstream/handle/11201/151210/Memoria_EPSU0862.pdf?s',
     },
     {
-      tema: 'Diseño de circuitos impresos con EAGLE',
+      tema: 'Alistamiento y preparación de tarjetas electrónicas',
       referencia:
-        'Lajara V. J, et al (2014). Diseño, circuitos impresos con EAGLE (Primera edición. Ed),',
+        'Lajara V. J, et al (2014). Diseño, <em>circuitos impresos con EAGLE</em> (Primera edición. Ed),',
       tipo: 'Libro',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000078453&context=L&vid=SENA&lang=es_ES&search_scope=sena_completo&adaptor=Local%20Search%20Engine&tab=sena_completo&query=any,contains,dise%C3%B1o%20de%20pcb&offset=10',
     },
     {
-      tema:
-        'IPC 2221B requisitos Parte1 [Tips para usar la Norma Genérica de diseño de PCB]. ',
+      tema: 'Alistamiento y preparación de tarjetas electrónicas ',
       referencia:
         'Aldelta Technologies. (2021). IPC 2221B requisitos Parte1 Tips para usar la Norma Genérica de diseño de PCB, [Vídeo]. YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=WKonehj93hk',
     },
     {
-      tema: 'Tutorial: Diseño de PCB con Fritzing',
+      tema:
+        'Ensamble y documentación de componentes sobre tarjetas electrónicas',
       referencia:
-        'Andrés Argudo. (2021).  Diseño de PCB con Fritzing, [video], You Tube ',
+        'Argudo. (2021).  <em>Diseño de PCB con Fritzing,</em> [video], You Tube ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=DamOAfvkFjo',
     },
     {
       tema:
-        'IPC-J-STD-075-Spanish: Clasificación de componentes electrónicos no-IC para procesos de ensamble',
+        'Ensamble y documentación de componentes sobre tarjetas electrónicas',
       referencia:
-        'IPC Build Electronics Better. (01 de 09 de 2008). IPC-J-STD-075-Spanish: Clasificación de componentes electrónicos no-IC para procesos de ensamble. ',
+        'IPC Build Electronics Better. (01 de 09 de 2008). <em>IPC-J-STD-075-Spanish: Clasificación de componentes electrónicos no-IC para procesos de ensamble.</em> ',
       tipo: 'Norma',
       link: 'http://www.ipc.org/TOC/J-STD-075-SP-TOC.pdf',
     },
     {
       tema:
-        'IPC-1601A: Guía para el manejo y almacenamiento de tarjetas impresas',
+        'Ensamble y documentación de componentes sobre tarjetas electrónicas',
       referencia:
-        'IPC Build Electronics Better. (01 de 06 de 2016). IPC-1601A: Guía para el manejo y almacenamiento de tarjetas impresas. ',
+        'IPC Build Electronics Better. (01 de 06 de 2016). IPC-1601A: <em>Guía para el manejo y almacenamiento de tarjetas impresas.</em> ',
       tipo: 'Norma',
       link: 'http://www.ipc.org/TOC/ipc-1601A-SP-TOC.pdf',
     },
     {
-      tema: 'IPC-2591: Intercambio en fábricas conectadas (CFX)',
+      tema:
+        'Ensamble y documentación de componentes sobre tarjetas electrónicas',
       referencia:
-        'IPC Build Electronics Better. (01 de 03 de 2019). IPC-2591: Intercambio en fábricas conectadas (CFX). ',
+        'IPC Build Electronics Better. (01 de 03 de 2019). IPC-2591: <em>Intercambio en fábricas conectadas (CFX).</em> ',
       tipo: 'Norma',
       link: 'http://www.ipc.org/TOC/IPC-2591-Spanish-toc.pdf',
     },

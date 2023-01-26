@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Diseño, ensamble y documentación de tarjetas electrónicas
-        p La actividad didáctica que presentamos a continuación pone a prueba los conocimientos adquiridos con este componente formativo. Seleccione la opción correcta para cada pregunta. Es importante leer detenidamente cada enunciado.
+        p Apreciado aprendiz, a continuación, encontrará una serie de preguntas que deberá resolver, con el objetivo de evaluar la aprehensión de los conocimientos expuestos en este componente formativo.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Alistamiento y preparación de tarjetas electrónicas de acuerdo a procedimientos y normativas
+      h1 Alistamiento y preparación de tarjetas electrónicas
 
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
@@ -28,7 +28,7 @@
             p Doñate (2018), indica que:
             br
             i.fas.fa-quote-left
-            p.mb-0: b Una tarjeta de circuito impreso o también llamada PCB (
+            p.mb-0: Una tarjeta de circuito impreso o también llamada PCB (
               em Printed Circuit Board
               | ), es una placa o superficie donde se ensamblan y conectan eléctricamente diversos componentes electrónicos por medio de pistas de cobre.
             i.fas.fa-quote-right
@@ -45,14 +45,11 @@
         p En la Figura 1 se aprecia, una PCB con sus componentes ensamblados, en la parte superior y una sin componentes en la parte inferior.
       .col-md-5
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 1.
+          h5 Figura 1
           br
           em PCB con y sin componentes electrónicos
         figure
           img(src='@/assets/curso/temas/t1/f3.png', alt='')
-          figcaption Nota: adaptado de 
-            a(href="https://pcbcentral.com/tarjeta-de-circuito-impreso-definiciones-y-terminologa-utilizada-parte-i" target="_blank")
-              b Tarjeta de Circuito Impreso – Definiciones y Terminología. EmmanuelCianca, 2018.
 
     h3.titulo-tercero(data-aos='fade-right')
       i.fas.fa-square.cab.me-2 
@@ -63,7 +60,9 @@
         img(src='@/assets/curso/temas/t1/f4.png', alt='dispositivos electrónicos')
       .col-md-7
         p Al momento de desarrollar una PCB hay que tener en cuenta que en ella intervienen diferentes componentes elementales sin los cuales no sería posible su funcionamiento. A través del ensamble y la ubicación de los componentes del circuito electrónico es posible conocer el objetivo para el cual ha sido diseñado.
-        p A continuación, se presentan los componentes más importantes que intervienen en el desarrollo de una PCB:
+          br
+          br
+          |A continuación, se presentan los componentes más importantes que intervienen en el desarrollo de una PCB:
 
     .tarjeta.tarjeta--gris.p-4.mb-5
       PasosB.color-acento-botones
@@ -193,21 +192,21 @@
       .col-md-4.zi2
         img(src='@/assets/curso/temas/t1/f23.svg', alt='circuito impreso')
 
-    p A continuación, se presentan los elementos que deben ser considerados en las técnicas de ensamble:
+    p Se presentan los elementos que deben ser considerados en las técnicas de ensamble:
 
     .row.justify-content-center.mb-5
       .col-md-9
         TabsA.color-secundario.mb-5
           .tarjeta.p-4(titulo="Diseño", style="background-color: #E5E7F2")
-            p En el Manual OrCAD Layout (s.f), se afirma que: “en la actualidad el método de diseño se hace por medio de herramientas CAD idóneas a este objetivo. Las herramientas CAD (Diseño Asistido por PC, de sus siglas en inglés 
-              em Computer Aided Design
-              | ) se asocian con el dibujo” este método facilita en gran medida la elaboración del circuito impreso ya que modela y simula su funcionamiento. El diseño CAD es empleado mayormente en dibujo, y cuenta con herramientas útiles que mejoran el rendimiento y evitan que durante el montaje físico haya inconvenientes en su rendimiento. Algunos de los programas para el diseño más usados mundialmente son: ALTIUM, Designspark, EAGLE, KICAD, entre otros.
-            p También es necesario tener en cuenta los dos tipos de diseño que intervienen: Diseño esquemático y Diseño 
-              em Layout (Board). 
+            p En el Manual OrCAD Layout (s.f), se afirma que: “en la actualidad, el método de diseño se hace por medio de herramientas CAD idóneas para este objetivo. Las herramientas CAD (Diseño Asistido por Computador, de sus siglas en inglés Computer Aided Design) se asocian con el dibujo”; este método facilita, en gran medida, la elaboración del circuito impreso porque modela y simula su funcionamiento. El diseño CAD es empleado mayormente en dibujo, y cuenta con herramientas útiles que mejoran el rendimiento y evitan que, durante el montaje físico, se presenten inconvenientes en su rendimiento. Algunos de los programas para el diseño más usados mundialmente son: ALTIUM, Designspark, EAGLE, KICAD, entre otros.
+              br
+              br
+              |También es necesario tener en cuenta los dos tipos de diseño que intervienen: Diseño esquemático y Diseño Layout (Board).
           .tarjeta.p-4(titulo="Disposición de elementos", style="background-color: #E5E7F2")
             p Esta etapa se inicia con el cálculo de su tamaño máximo para que la disposición de los elementos cuente con exactitud en la PCB, luego es necesario ubicar los componentes, inicialmente los de entrada/salida, de acuerdo al diseño que se haya realizado anteriormente, para finalmente agruparlos por bloques lógicos con el fin de reducir las trazas de conexión para que las pistas sean más cortas y de esta manera se reduzcan los efectos resistivos que afecten el funcionamiento, (Bravo, 2018).
       .col-md-3
         img(src='@/assets/curso/temas/t1/f24.png', alt='tarjetas e integrados')
+    p.mb-5(data-aos='fade-right') Lo invitamos a ver el siguiente video, para ampliar la información sobre las placas.
 
     figure.mb-5
       .video
@@ -218,8 +217,8 @@
       | Serigrafía
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-md-8.trright.zi1.tarjeta(style="background-color: #e5e7f2")
-        p La serigrafía es la técnica que permite depositar la pasta para soldar en los puntos donde se posicionan los componentes, los dos tipos de serigrafía más usados son:
+      .col-md-8.trright.zi1.tarjeta(style="background-color: #ffeed4")
+        p La serigrafía, es la técnica que permite depositar la pasta para soldar, en los puntos donde se posicionan los componentes.
       .col-md-4.zi2
         img(src='@/assets/curso/temas/t1/f25.svg', alt='circuito impreso')
 
@@ -250,7 +249,9 @@
         )
         .bloque-texto-g__texto.p-4
           p Como se ha mencionado, las tarjetas de circuito se componen de diferentes elementos que en conjunto le permiten realizar el trabajo para el que han sido diseñadas, entre ellos, se encuentran: componentes electrónicos, técnicas de ensamble, placas, máscara de soldado, serigrafía, pads y pistas, encapsulados, patrones de circuito, documentación de diseño y polaridad de componentes.
-          p.mb-0 A continuación, se presenta el concepto de pads y pistas, encapsulados, patrones de circuito, documentación de diseño y polaridad de componentes.
+            br
+            br
+            |Los conceptos de Pads y pistas, encapsulados, patrones de circuito, documentación de diseño y polaridad de componentes, son de gran relevancia, veamos:
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
       .row.justify-content-around.align-items-center.bg-r-c(titulo="Pads y pistas")
@@ -364,7 +365,7 @@
     .row.justify-content-center.mb-5
       .col-md-7
         p D. Gudeczauskas, G. Milad, (1997) nos dice que:
-        p: b "los métodos de revestimiento o de acabado de la superficie más utilizados para proteger las PCB son la plata de inmersión (IAg), estaño de inmersión (ISn), revestimiento de oro de inmersión de níquel no electrolítico (ENIG) y oro de inmersión de paladio no electrolítico de níquel no electrolítico (ENEPIG). Estos métodos mejoran el rendimiento y la confiabilidad del cobre, ya que protegen los componentes de la corrosión y la oxidación superficial de esta sustancia".
+        p "los métodos de revestimiento o de acabado de la superficie más utilizados para proteger las PCB son la plata de inmersión (IAg), estaño de inmersión (ISn), revestimiento de oro de inmersión de níquel no electrolítico (ENIG) y oro de inmersión de paladio no electrolítico de níquel no electrolítico (ENEPIG). Estos métodos mejoran el rendimiento y la confiabilidad del cobre, ya que protegen los componentes de la corrosión y la oxidación superficial de esta sustancia".
         .cajon.color-acento-botones.p-4.mb-4
           p.mb-0 Asimismo es indispensable conocer los componentes de la soldadura, ya que existen regulaciones internacionales que establecen su correcta utilización. En el simposio internacional sobre microelectrónica, (Tdgk2005, 2008) se destacó que “ahora se utilizan nuevos compuestos de soldadura para lograr el cumplimiento de la directiva RoHS en la UE que restringe el uso de plomo. Uno de estos compuestos sin plomo es el SN100CL, que contiene 99,3% de estaño, 0,7% de cobre, 0,05% de níquel y un valor nominal de 60 ppm de germanio”.
       .col-md-5
@@ -387,9 +388,6 @@
         em Las mediciones de las temperaturas de funcionamiento y las simulaciones térmicas
         figure
           img(src='@/assets/curso/temas/t1/f40.png', alt='')
-          figcaption Nota: Adaptado de 
-            a(href="https://www.redeweb.com/articulos/distribucion-de-calor-en-pcb/?cn-reloaded=", target="_blank") 
-              b Distribución de calor en PCB: uso de imágenes termográficas para obtener resultados más precisos, Electronica, 2017.
 
     .col-md-10.mx-auto.mb-5
       .cajon.color-acento-contenido.p-4
@@ -402,9 +400,6 @@
         em Imágenes térmicas de la PCB
         figure
           img(src='@/assets/curso/temas/t1/f41.png', alt='')
-          figcaption Nota: Adaptado de 
-            a(href="https://www.redeweb.com/articulos/distribucion-de-calor-en-pcb/?cn-reloaded=1). 2017", target="_blank") 
-              b Distribución de calor en PCB. 2017.
 
     separador
 
