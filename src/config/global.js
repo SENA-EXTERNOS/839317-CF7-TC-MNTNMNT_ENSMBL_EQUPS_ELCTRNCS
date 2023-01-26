@@ -172,7 +172,7 @@ export default {
       tema:
         'Ensamble y documentación de componentes sobre tarjetas electrónicas',
       referencia:
-        'Argudo, A. (2021).  <em>Diseño de PCB con Fritzing [video].</em> YouTube ',
+        'Argudo, A. (2021).  <em>Diseño de PCB con Fritzing [video].</em> YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=DamOAfvkFjo',
     },
