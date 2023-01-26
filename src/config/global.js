@@ -78,13 +78,13 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Riesgo de ensamble',
+            titulo: 'Riesgo en ensamble electrónico',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Soldadura electrónica',
+            titulo: 'Soldadura en electrónica',
             hash: 't_2_3',
           },
           {

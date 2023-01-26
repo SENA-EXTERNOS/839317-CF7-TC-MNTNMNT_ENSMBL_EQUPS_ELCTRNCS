@@ -115,21 +115,22 @@
       
       ImagenInfograficaB.color-secundario.mb-5
         template(v-slot:imagen)
-          figure
+          figure(@mouseover="indicadorImagenZoom = false")
             img(src='@/assets/curso/temas/t2/f10.svg', alt='Texto que describa la imagen')
-        .tarjeta.color-acento-botones.p-4(x="69%" y="26%" tooltip="" numero="")
+            .indicador--hover(v-if="indicadorImagenZoom")
+        .tarjeta.color-acento-botones.p-4(x="69%" y="26%" tooltip="Concepto" numero="")
           h4.cst Concepto
           p.cst Los riesgos están relacionados con las situaciones que pueden ocasionar o poner en peligro la integridad de las personas, en electrónica no se es ajeno a esta situación dado que se puede trabajar con altas temperaturas, exposición a vapores o humos, contacto con elementos cortopunzantes, agentes químicos y tensiones eléctricas.
-        .tarjeta.color-acento-botones.p-4(x="40.5%" y="36%" tooltip="" numero="")
+        .tarjeta.color-acento-botones.p-4(x="40.5%" y="36%" tooltip="Descargas electrostáticas" numero="")
           h4.cst Descargas electrostáticas
           p.cst Son aquellas descargas de electricidad estática hacía la tierra, en ellas se evidencia la transferencia de cargas electrostáticas entre dos cuerpos con diferentes potenciales, produciendo una transferencia que puede ser por un contacto directo. Esto ocurre cuando una persona toca un objeto cuyo potencial eléctrico es menor y se pasa una corriente. Es necesario realizar descargas electrostáticas en los equipos para evitar daños, además de utilizar las pulseras destinadas para este fin, así como el uso de superficies que eviten este tipo de descargas.
-        .tarjeta.color-acento-botones.p-4(x="31%" y="11%" tooltip="" numero="")
+        .tarjeta.color-acento-botones.p-4(x="31%" y="11%" tooltip="Sobrecargas eléctricas" numero="")
           h4.cst Sobrecargas eléctricas
           p.cst Primero es necesario entender que la sobrecarga eléctrica es un exceso de energía en una corriente a través de un circuito, se puede producir al conectar demasiados dispositivos a una misma instalación, sobrecargándola y propiciando fallas.
-        .tarjeta.color-acento-botones.p-4(x="36%" y="60%" tooltip="" numero="")
+        .tarjeta.color-acento-botones.p-4(x="36%" y="60%" tooltip="Prevención de descargas y sobrecargas" numero="")
           h4.cst Prevención de descargas y sobrecargas
           p.cst Para evitar este tipo de daños, se recomienda utilizar el 80% de la capacidad instalada de la red, para no sobrecargarla, sin dejar de lado las normas para la instalación y construcción de los circuitos eléctricos. Si se desconoce el diseño y construcción de la instalación, es importante evitar realizar demasiadas conexiones en un mismo punto.
-        .tarjeta.color-acento-botones.p-4(x="50%" y="47%" tooltip="" numero="")
+        .tarjeta.color-acento-botones.p-4(x="50%" y="47%" tooltip="Mantenimiento de accesorios" numero="")
           h4.cst Mantenimiento de accesorios
           p.cst No es suficiente tener un plan de mantenimiento en la empresa, se requiere mantener los accesorios en buen estado para poder implementarlo de forma eficiente. Para ello tendremos en cuenta las siguientes claves:
           ul.lista-ul--color
@@ -158,7 +159,7 @@
               p.mb-0 
                 b Servicio técnico: 
                 | es un aspecto relevante para brindar apoyo y confianza en caso de requerir insumos, repuestos, equipos, etc. La rápida respuesta de este servicio facilita las labores de la organización.
-        .tarjeta.color-acento-botones.p-4(x="82%" y="50%" tooltip="" numero="")
+        .tarjeta.color-acento-botones.p-4(x="82%" y="50%" tooltip="Compatibilidad electromagnética" numero="")
           h4.cst Compatibilidad electromagnética
           p.cst Es la capacidad que presenta un equipo o un sistema para no causar interferencias electromagnéticas a otros y funcionar correctamente a su vez ante las perturbaciones que pueden presentarse en su entorno. Se resume en dos conceptos básicos:
           ul.lista-ul--color
@@ -358,6 +359,7 @@
 export default {
   name: 'Tema2',
   data: () => ({
+    indicadorImagenZoom: true,
     // variables de vue
   }),
   mounted() {
