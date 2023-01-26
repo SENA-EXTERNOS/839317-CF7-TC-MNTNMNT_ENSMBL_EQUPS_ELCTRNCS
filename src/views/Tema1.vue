@@ -186,7 +186,7 @@
       | Técnicas de ensamble
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-md-8.trright.zi1.tarjeta(style="background-color: rgba(32,203,125,.15)")
+      .col-md-8.trright.zi1.tarjeta(style="background-color: rgba(32,203,125,.15)").p-5
         p Según (Jordana, 2018): “el diseño de PCBs cuenta con un área en constante desarrollo debido a que cada día los elementos son más pequeños, con mayor cantidad de pines y con frecuencias de reloj más altas.” Por ello, es necesario tener un plan que cuente con la implementación de dispositivos y tecnologías cómo FPGAs, DSPs, sensores digitales, entre otros elementos que se requieren para conocer bien cuáles son las técnicas implementadas, además del funcionamiento de los programas de diseño.
         p.mb-0 Para ello se define el proceso adecuado para el desarrollo de las PCB’s. 
       .col-md-4.zi2
@@ -198,11 +198,11 @@
       .col-md-9
         TabsA.color-secundario.mb-5
           .tarjeta.p-4(titulo="Diseño", style="background-color: #E5E7F2")
-            p En el Manual OrCAD Layout (s.f), se afirma que: “en la actualidad, el método de diseño se hace por medio de herramientas CAD idóneas para este objetivo. Las herramientas CAD (Diseño Asistido por Computador, de sus siglas en inglés Computer Aided Design) se asocian con el dibujo”; este método facilita, en gran medida, la elaboración del circuito impreso porque modela y simula su funcionamiento. El diseño CAD es empleado mayormente en dibujo, y cuenta con herramientas útiles que mejoran el rendimiento y evitan que, durante el montaje físico, se presenten inconvenientes en su rendimiento. Algunos de los programas para el diseño más usados mundialmente son: ALTIUM, Designspark, EAGLE, KICAD, entre otros.
+            p En el Manual OrCAD Layout (s.f), se afirma que: “en la actualidad, el método de diseño se hace por medio de herramientas CAD idóneas para este objetivo. Las herramientas CAD (Diseño Asistido por Computador, de sus siglas en inglés #[em Computer Aided Design]) se asocian con el dibujo”; este método facilita, en gran medida, la elaboración del circuito impreso porque modela y simula su funcionamiento. El diseño CAD es empleado mayormente en dibujo, y cuenta con herramientas útiles que mejoran el rendimiento y evitan que, durante el montaje físico, se presenten inconvenientes en su rendimiento. Algunos de los programas para el diseño más usados mundialmente son: ALTIUM, Designspark, EAGLE, KICAD, entre otros.
               br
               br
               |También es necesario tener en cuenta los dos tipos de diseño que intervienen: Diseño esquemático y Diseño Layout (Board).
-          .tarjeta.p-4(titulo="Disposición de elementos", style="background-color: #E5E7F2")
+          .tarjeta.p-4(titulo="Disposición <br> de elementos", style="background-color: #E5E7F2")
             p Esta etapa se inicia con el cálculo de su tamaño máximo para que la disposición de los elementos cuente con exactitud en la PCB, luego es necesario ubicar los componentes, inicialmente los de entrada/salida, de acuerdo al diseño que se haya realizado anteriormente, para finalmente agruparlos por bloques lógicos con el fin de reducir las trazas de conexión para que las pistas sean más cortas y de esta manera se reduzcan los efectos resistivos que afecten el funcionamiento, (Bravo, 2018).
       .col-md-3
         img(src='@/assets/curso/temas/t1/f24.png', alt='tarjetas e integrados')
@@ -217,12 +217,12 @@
       | Serigrafía
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-md-8.trright.zi1.tarjeta(style="background-color: #ffeed4")
+      .col-md-8.trright.zi1.tarjeta(style="background-color: #ffeed4").p-5
         p La serigrafía, es la técnica que permite depositar la pasta para soldar, en los puntos donde se posicionan los componentes.
       .col-md-4.zi2
         img(src='@/assets/curso/temas/t1/f25.svg', alt='circuito impreso')
 
-    p A continuación, se presentan las técnicas empleadas en la serigrafía:
+    p Las técnicas empleadas en la serigrafía, son:
 
     TabsC.color-acento-contenido.mb-5
       .py-4.py-md-5(titulo="Impresión serigráfica")
@@ -296,7 +296,7 @@
       h2 1.2 Tratamiento térmico
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-md-8.zi2(style="background-color: rgba(32,203,125,.29)")
+      .col-md-8.zi2(style="background-color: rgba(32,203,125,.29)").p-5.rounded-3
         p Una de las mayores preocupaciones de los diseñadores de PCB’s es la generación de calor que produce el circuito impreso y cómo abordar su disipación, este aspecto es fundamental, ya que la implementación de las placas con mayor rendimiento en superficies cada vez más pequeñas hace que los componentes queden más cerca unos de otros y las pistas sean cada vez más reducidas, produciendo un incremento de calor en los componentes y generando fallas en el dispositivo. 
         p.mb-0 Los efectos de la temperatura son factores determinantes en el tratamiento térmico, a continuación, podrá identificar en qué consiste cada uno de ellos:
       .col-md-4.trright-zi1.tarjeta
@@ -308,7 +308,7 @@
           .tarjeta.color-acento-botones--borde.p-4(titulo="Efectos del calor")
             p Para la Revista española de electrónica, (Revista española de electrónica 2017): “Las altas temperaturas por pérdidas resistivas que pueden ampliarse en entornos difíciles, afectan las propiedades eléctricas, como la impedancia, y provocan un comportamiento impredecible en el circuito. Las distintas tasas de expansión térmica de los componentes y la PCB generarán tensiones de tracción y de corte y, en el caso del ciclo térmico, fatiga, fragilidad y fallos”. 
             p Si no se toma en cuenta la seguridad de los componentes, las temperaturas pueden ser tan altas en los sustratos, que pueden llegar a dañarse por completo, fundiéndose o incluso quemándose, además puede comprometer la integridad de las soldaduras o de las propias capas de la placa, debido a la expansión y contracción sus materiales.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Niveles de temperatura - técnicas de reflujo")
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Niveles de <br> temperatura - <br> técnicas de reflujo")
             p El proceso de reflujo se visualiza en etapas antes de su implementación, y consiste en la aplicación de pasta de soldadura en la tarjeta impresa una vez se depositan los componentes electrónicos para luego introducir la placa a un horno de reflujo que realiza el proceso de calentamiento con una temperatura determinada, suficiente para adherir los componentes a la placa de circuito. Para ello, es importante que la soldadura sea de la calidad requerida, y que cada uno de los puntos (fijaciones) sean consistentes para lograr un buen acabado.
       .col-md-3
         img(src='@/assets/curso/temas/t1/f35.png', alt='placa electrónica')
@@ -319,7 +319,7 @@
 
     p La información que se presenta a continuación, le permitirá identificar las etapas del proceso de reflujo en el marco de los niveles de temperatura.
 
-    .col-md-10.mx-auto.mb-5
+    .col-md-8.mx-auto.mb-5
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         h5 Figura 2.
         br
@@ -383,11 +383,11 @@
     
     .col-md-6.mx-auto.mb-5
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-        h5 Figura 3.
+        h5 Figura 3
         br
         em Las mediciones de las temperaturas de funcionamiento y las simulaciones térmicas
-        figure
-          img(src='@/assets/curso/temas/t1/f40.png', alt='')
+      figure
+        img(src='@/assets/curso/temas/t1/f40.png', alt='')
 
     .col-md-10.mx-auto.mb-5
       .cajon.color-acento-contenido.p-4
@@ -395,11 +395,11 @@
     
     .col-md-6.mx-auto.mb-5
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-        h5 Figura 4.
+        h5 Figura 4
         br
         em Imágenes térmicas de la PCB
-        figure
-          img(src='@/assets/curso/temas/t1/f41.png', alt='')
+      figure
+        img(src='@/assets/curso/temas/t1/f41.png', alt='')
 
     separador
 
@@ -408,14 +408,14 @@
 
     .bg1
       .col-md-10.mx-auto 
-        .tarjeta.color-secundario.p-3.mb-5
-          .row.justify-content-around.align-items-center
+        .tarjeta.color-secundario.p-3.mb-5.d-flex.justify-content-center
+          .row.justify-content-center.align-items-center
             .col-3.col-sm-2.col-lg-1
               img(src="@/assets/curso/temas/t1/f42.svg")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.text-small Para entender la importancia de una norma aplicada al diseño, ensamble y documentación de tarjetas electrónicas lo invitamos a leer el documento “Normativa técnica”. Para acceder al documento haga clic en Descargar.
+                  p Para entender la importancia de una norma aplicada al diseño, ensamble y documentación de tarjetas electrónicas lo invitamos a leer el documento “Normativa técnica”. Para acceder al documento haga clic en Descargar.
                 .col.mb-3.mb-sm-0
                   a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('downloads/CF07_839317_Anexo1.pdf')" target="_blank" type="application/pdf")
                     span Descargar 

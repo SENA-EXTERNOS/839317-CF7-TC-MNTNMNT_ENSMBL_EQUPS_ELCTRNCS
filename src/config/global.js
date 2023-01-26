@@ -38,8 +38,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo:
-          'Alistamiento y preparación de tarjetas electrónicas de acuerdo a procedimientos y normativas',
+        titulo: 'Alistamiento y preparación de tarjetas electrónicas',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -67,7 +66,7 @@ export default {
         icono: 'far fa-file-alt',
         numero: '2',
         titulo:
-          'Ensamble y documentación de componentes sobre tarjetas electrónicas de acuerdo a procedimientos normativos',
+          'Ensamble y documentación de componentes sobre tarjetas electrónicas',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -141,7 +140,7 @@ export default {
     {
       tema: 'Alistamiento y preparación de tarjetas electrónicas.',
       referencia:
-        'Serna R. A., & García G. J. (2000). <em>Desarrollo y construcción de prototipos electrónicos. Madrid:</em> Paraninfo. ',
+        'Serna R. A. & García G. J. (2000). <em>Desarrollo y construcción de prototipos electrónicos.</em> Paraninfo.',
       tipo: 'Libro',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000034022&context=L&vid=SENA&lang=es_ES&search_scope=sena_completo&adaptor=Local%20Search%20Engine&tab=sena_completo&query=any,contains,dise%C3%B1o%20de%20pcb&offset=10',
@@ -149,7 +148,7 @@ export default {
     {
       tema: 'Alistamiento y preparación de tarjetas electrónicas ',
       referencia:
-        'Jordana, J. B. (2018). Descripción, fabricación y montaje de una PCB. d',
+        'Jordana, J. B. (2018). <em>Descripción, fabricación y montaje de una PCB.</em> d',
       tipo: 'Informe de investigación',
       link:
         'https://dspace.uib.es/xmlui/bitstream/handle/11201/151210/Memoria_EPSU0862.pdf?s',
@@ -157,7 +156,7 @@ export default {
     {
       tema: 'Alistamiento y preparación de tarjetas electrónicas',
       referencia:
-        'Lajara V. J, et al (2014). Diseño, <em>circuitos impresos con EAGLE</em> (Primera edición. Ed),',
+        'Lajara V. J., et al. (2014). <em>Diseño, circuitos impresos con EAGLE</em> (Primera edición. Ed).',
       tipo: 'Libro',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000078453&context=L&vid=SENA&lang=es_ES&search_scope=sena_completo&adaptor=Local%20Search%20Engine&tab=sena_completo&query=any,contains,dise%C3%B1o%20de%20pcb&offset=10',
@@ -165,7 +164,7 @@ export default {
     {
       tema: 'Alistamiento y preparación de tarjetas electrónicas ',
       referencia:
-        'Aldelta Technologies. (2021). IPC 2221B requisitos Parte1 Tips para usar la Norma Genérica de diseño de PCB, [Vídeo]. YouTube. ',
+        'Aldelta Technologies. (2021). <em>IPC 2221B requisitos Parte1 Tips para usar la Norma Genérica de diseño de PCB [video].</em> YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=WKonehj93hk',
     },
@@ -173,7 +172,7 @@ export default {
       tema:
         'Ensamble y documentación de componentes sobre tarjetas electrónicas',
       referencia:
-        'Argudo. (2021).  <em>Diseño de PCB con Fritzing,</em> [video], You Tube ',
+        'Argudo, A. (2021).  <em>Diseño de PCB con Fritzing [video].</em> YouTube ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=DamOAfvkFjo',
     },
@@ -181,7 +180,7 @@ export default {
       tema:
         'Ensamble y documentación de componentes sobre tarjetas electrónicas',
       referencia:
-        'IPC Build Electronics Better. (01 de 09 de 2008). <em>IPC-J-STD-075-Spanish: Clasificación de componentes electrónicos no-IC para procesos de ensamble.</em> ',
+        'IPC Build Electronics Better. (2008). <em>IPC-J-STD-075-Spanish: Clasificación de componentes electrónicos no-IC para procesos de ensamble.</em> ',
       tipo: 'Norma',
       link: 'http://www.ipc.org/TOC/J-STD-075-SP-TOC.pdf',
     },
