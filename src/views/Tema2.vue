@@ -30,19 +30,19 @@
         p.mb-0 A continuación, se describen las fases principales de un laboratorio: 
 
     .row.justify-content-center.mb-5
-      .col-lg-5
-        .crd_hover_txt.color-acento-botones
+      .col-lg-5.mb-lg-0.mb-3
+        .crd_hover_txt.color-acento-botones.crd_hover_txt1
           .crd_hover_txt--img
-            figure
-              img(src='@/assets/curso/temas/t2/f3.jpg', alt='')
+            //- figure
+            //-   img(src='@/assets/curso/temas/t2/f3.jpg', alt='')
           .crd_hover_txt--body
             h4.text-center Trazador de placas de circuitos
             p.text-center.mb-0 El trazador de placas de circuitos es aquel que realiza la placa con perforaciones de orificios y las pistas necesarias por medio de un sistema de fresado que ayuda a la separación final de las placas, obteniendo una muy alta calidad. Este método se puede realizar por arranque de material o por medio de láser, obteniendo resultados similares.
       .col-lg-5
-        .crd_hover_txt.color-acento-botones
+        .crd_hover_txt.color-acento-botones.crd_hover_txt2
           .crd_hover_txt--img
-            figure
-              img(src='@/assets/curso/temas/t2/f4.jpg', alt='')
+            //- figure
+            //-   img(src='@/assets/curso/temas/t2/f4.jpg', alt='')
           .crd_hover_txt--body
             h4.text-center Soldadura de placas
             p.text-center.mb-0 Las placas pueden ser soldadas posteriormente para continuar con el ensamble, ubicando los componentes necesarios y aplicando luego una pasta de soldadura por medio de una impresión acompañada de una interfaz de usuario que indica paso a paso el procedimiento. Esta técnica se apoya en una cámara que permite visualizar el proceso e inspeccionar la correcta aplicación de soldadura, terminando el proceso con un tratamiento en un horno de reflujo. Todo el procedimiento está soportado por un 
