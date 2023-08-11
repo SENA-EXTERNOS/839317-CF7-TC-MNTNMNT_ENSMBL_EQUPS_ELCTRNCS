@@ -291,6 +291,8 @@ export default {
     {
       referencia:
         'Díaz, M. J. (2021). <em>Normas Básicas y Recomendaciones en el Diseño de PCB´s</em>.',
+      link:
+        'https://www.dte.us.es/docencia/etsii/gii-ic/laboratorio-de-desarrollo-hardware/temas/Tema5NormasPCB/at_download/file',
     },
     {
       referencia:

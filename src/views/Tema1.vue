@@ -206,6 +206,8 @@
             p Esta etapa se inicia con el cálculo de su tamaño máximo para que la disposición de los elementos cuente con exactitud en la PCB, luego es necesario ubicar los componentes, inicialmente los de entrada/salida, de acuerdo al diseño que se haya realizado anteriormente, para finalmente agruparlos por bloques lógicos con el fin de reducir las trazas de conexión para que las pistas sean más cortas y de esta manera se reduzcan los efectos resistivos que afecten el funcionamiento, (Bravo, 2018).
       .col-md-3
         img(src='@/assets/curso/temas/t1/f24.png', alt='tarjetas e integrados')
+
+    h4 Placas
     p.mb-5(data-aos='fade-right') Lo invitamos a ver el siguiente video, para ampliar la información sobre las placas.
 
     figure.mb-5
@@ -304,11 +306,11 @@
 
     .row.justify-content-center.mb-5
       .col-md-9
-        TabsA.color-acento-botones.mb-5
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Efectos del calor")
+        TabsC.color-acento-botones.mb-5
+          .tarjeta.color-acento-botones--borde.p-4.mb-3(titulo="Efectos del calor")
             p Para la Revista española de electrónica, (Revista española de electrónica 2017): “Las altas temperaturas por pérdidas resistivas que pueden ampliarse en entornos difíciles, afectan las propiedades eléctricas, como la impedancia, y provocan un comportamiento impredecible en el circuito. Las distintas tasas de expansión térmica de los componentes y la PCB generarán tensiones de tracción y de corte y, en el caso del ciclo térmico, fatiga, fragilidad y fallos”. 
             p Si no se toma en cuenta la seguridad de los componentes, las temperaturas pueden ser tan altas en los sustratos, que pueden llegar a dañarse por completo, fundiéndose o incluso quemándose, además puede comprometer la integridad de las soldaduras o de las propias capas de la placa, debido a la expansión y contracción sus materiales.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Niveles de <br> temperatura - <br> técnicas de reflujo")
+          .tarjeta.color-acento-botones--borde.p-4.mb-3(titulo="Niveles de temperatura - técnicas de reflujo")
             p El proceso de reflujo se visualiza en etapas antes de su implementación, y consiste en la aplicación de pasta de soldadura en la tarjeta impresa una vez se depositan los componentes electrónicos para luego introducir la placa a un horno de reflujo que realiza el proceso de calentamiento con una temperatura determinada, suficiente para adherir los componentes a la placa de circuito. Para ello, es importante que la soldadura sea de la calidad requerida, y que cada uno de los puntos (fijaciones) sean consistentes para lograr un buen acabado.
       .col-md-3
         img(src='@/assets/curso/temas/t1/f35.png', alt='placa electrónica')

@@ -224,28 +224,22 @@
           p Los hilos de estaño más utilizados para realizar soldaduras son los eutécticos, en los que el punto de fusión es inferior al de los materiales que componen la aleación. Existen otras alternativas y aleaciones, cambiando las temperaturas de fusión de acuerdo a estos, (Vuelapluma S.L., 2007).<br><br>
           p.mb-0 A continuación, se presentan algunos de los componentes de los materiales de aleación y los aceleradores.
 
-    .row.justify-content-center.mb-5
-      .col-md-3
-        .tarjeta.mb-5.p-4(style="background-color: #E0EFFB")
-          .mb-4.mx-auto
-            img.mx-auto(src='@/assets/curso/temas/t2/f16.svg' alt='AvatarTop', style='height:150px;width:auto')
-            .p-4
-              h6.text-center Estaño SnPB 60/40
-              p.text-center Se compone de 60 % de estaño y 40 % de plomo, con un punto de fusión de 183°C.
-      .col-md-3
-        .tarjeta.mb-5.p-4(style="background-color: #E0EFFB")
-          .mb-4.mx-auto
-            img.mx-auto(src='@/assets/curso/temas/t2/f17.png' alt='AvatarTop' style='height:150px;width:auto')
-            .p-4
-              h6.text-center Estaño SAC305
-              p.text-center Se compone de 96.5 % de estaño, 3 % de plata y un 0.5 de cobre, con un punto de fusión de 220°C.
-      .col-md-3
-        .tarjeta.mb-5.p-4(style="background-color: #E0EFFB")
-          .mb-4.mx-auto
-            img.mx-auto(src='@/assets/curso/temas/t2/f18.svg' alt='AvatarTop' style='height:150px;width:auto')
-            .p-4
-              h6.text-center Estaño SnPbAg
-              p.text-center Se compone de 62 % de estaño, 36 % de plomo y 2 % de plata, con un punto de fusión de 190°C.
+    .row.justify-content-center.mb-4
+      .col-md-3.my-3
+        .tarjeta.p-4.h-100(style="background-color: #E0EFFB")        
+          img.mb-4.mx-auto(src='@/assets/curso/temas/t2/f16.svg' alt='AvatarTop', style='height:150px;width:auto')        
+          h6.text-center Estaño SnPB 60/40
+          p.text-center Se compone de 60 % de estaño y 40 % de plomo, con un punto de fusión de 183°C.
+      .col-md-3.my-3
+        .tarjeta.p-4.h-100(style="background-color: #E0EFFB")        
+          img.mb-4.mx-auto(src='@/assets/curso/temas/t2/f17.png' alt='AvatarTop' style='height:150px;width:auto')        
+          h6.text-center Estaño SAC305
+          p.text-center Se compone de 96.5 % de estaño, 3 % de plata y un 0.5 de cobre, con un punto de fusión de 220°C.
+      .col-md-3.my-3
+        .tarjeta.p-4.h-100(style="background-color: #E0EFFB")        
+          img.mb-4.mx-auto(src='@/assets/curso/temas/t2/f18.svg' alt='AvatarTop' style='height:150px;width:auto')        
+          h6.text-center Estaño SnPbAg
+          p.text-center Se compone de 62 % de estaño, 36 % de plomo y 2 % de plata, con un punto de fusión de 190°C.
 
     h3.titulo-tercero(data-aos='fade-right')
       i.fas.fa-square.cab.me-2 
