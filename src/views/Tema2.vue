@@ -102,8 +102,7 @@
           :style="{'background-image':`url(${require('@/assets/curso/temas/t2/f9.jpg')})`}"
         )
         .bloque-texto-g__texto.p-4
-          p La electricidad es la principal fuente de energía de los dispositivos eléctricos y electrónicos, la cual es de difícil detección y puede ocasionar accidentes considerables a las personas o a la infraestructura, tales como incendios, quemaduras, caídas a diferentes niveles, golpes y choques eléctricos.
-          p.mb-0 Aunque este tipo de accidentes no suelen presentarse con frecuencia, cuando ocurren revisten un alto grado de afectación al organismo con consecuencias graves que pueden significar hasta la pérdida de la vida. La gravedad del daño depende de diferentes factores asociados a las tensiones que manejan los aparatos y al tipo de cuidado que se debe tener para evitar los accidentes, aunque no existe ninguna medida que evite la presencia de los riesgos.
+          p La electricidad es la principal fuente de energía de los dispositivos eléctricos y electrónicos, la cual es de difícil detección y puede ocasionar accidentes considerables a las personas o a la infraestructura, tales como incendios, quemaduras, caídas a diferentes niveles, golpes y choques eléctricos. Aunque este tipo de accidentes no suelen presentarse con frecuencia, cuando ocurren revisten un alto grado de afectación al organismo con consecuencias graves que pueden significar hasta la pérdida de la vida. La gravedad del daño depende de diferentes factores asociados a las tensiones que manejan los aparatos y al tipo de cuidado que se debe tener para evitar los accidentes, aunque no existe ninguna medida que evite la presencia de los riesgos.
 
     p A continuación, se presentan los riesgos en el ensamble electrónico: 
 
@@ -202,7 +201,7 @@
           .col-md-3.mb-4.mb-md-0
             img(src='@/assets/curso/temas/t2/f13.png', alt='')
           .col-md-6
-            h4 Requisitos para ensambles eléctricos y electrónicos soldados para aplicaciones espaciales y militares de dispositivos Electrónicos
+            h4 Requisitos para ensambles eléctricos y electrónicos soldados para aplicaciones espaciales y militares de dispositivos electrónicos
             p Esta norma establece los requisitos del proceso y los criterios de aceptación de los conjuntos electrónicos, (IPC Build Electronics Better, 2021)
       .py-4.py-md-5(titulo="Norma IPC-J-STD-001G-AM1: J-STD-001G-AM1-SP")
         .row.justify-content-around.align-items-center

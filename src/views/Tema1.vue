@@ -177,7 +177,7 @@
         .row.justify-content-around(titulo="")
           .col-md-6.mb-4.mb-md-0
             h4 Micro interruptores
-            p Algunos son de enclavamiento (Interruptores) y otros de acción temporal (Pulsadores), se pueden encontrar abiertos o cerrado,. (Llamas, 2020).
+            p Algunos son de enclavamiento (Interruptores) y otros de acción temporal (Pulsadores), se pueden encontrar abiertos o cerrados. (Llamas, 2020).
           .col-md-4
             img(src='@/assets/curso/temas/t1/f22.svg', alt='')
 
@@ -275,7 +275,7 @@
             img(src='@/assets/curso/temas/t1/f30.png', alt='imagen relacionada')
       .row.justify-content-around.align-items-center.bg-r-c(titulo="Patrones de circuito")
         .col-md-7.mb-4.mb-md-0
-          p Al momento verificar el circuito se deben tener en cuenta sus patrones y la disposición de las bobinas y transformadores que debe tener una orientación perpendicular con el fin de evitar las influencias magnéticas sobre otros circuitos; ya que, en un solenoide, el campo magnético se concentra sobre su eje axial. Para los circuitos de alta frecuencia, es recomendable que las curvas de las pistas no superen un ángulo de 45°, ya que podría producirse una autoinducción sobre la misma, deformando su señal. Para evitar las interferencias electromagnéticas (EMI) y brindar protección eléctrica, se deben separar los planos de tierra analógico y digital o utilizar acoplamientos (transformador, opto acopladores, aisladores de radio frecuencia, etc). Además, para circuitos susceptibles, se debe dejar espacio para fijar las jaulas de Faraday, (Bravo, 2018)
+          p Al momento de verificar el circuito se deben tener en cuenta sus patrones y la disposición de las bobinas y transformadores que debe tener una orientación perpendicular con el fin de evitar las influencias magnéticas sobre otros circuitos; ya que, en un solenoide, el campo magnético se concentra sobre su eje axial. Para los circuitos de alta frecuencia, es recomendable que las curvas de las pistas no superen un ángulo de 45°, ya que podría producirse una autoinducción sobre la misma, deformando su señal. Para evitar las interferencias electromagnéticas (EMI) y brindar protección eléctrica, se deben separar los planos de tierra analógico y digital o utilizar acoplamientos (transformador, opto acopladores, aisladores de radio frecuencia, etc). Además, para circuitos susceptibles, se debe dejar espacio para fijar las jaulas de Faraday, (Bravo, 2018)
         .col-md-3
           figure
             img(src='@/assets/curso/temas/t1/f31.png', alt='imagen relacionada')

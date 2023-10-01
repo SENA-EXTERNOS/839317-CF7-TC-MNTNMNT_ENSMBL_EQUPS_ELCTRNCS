@@ -336,20 +336,8 @@ export default {
     },
     {
       referencia:
-        'IPC Build Electronics Better. (2012), IPC/WHMA-A-620B-SP: <em>Requisitos y Aceptabilidad de Cables y Mazos de Cables</em>.',
-      link:
-        'https://shop.ipc.org/general-electronics-space-and-defense/standards/a620-0-b-spanish',
-    },
-    {
-      referencia:
         'IPC Build Electronics Better. (2015), IPC-6012DS-SP: <em></em>.',
       link: 'https://shop.ipc.org/space-and-defense/standards/6012-s-d-spanish',
-    },
-    {
-      referencia:
-        'IPC Build Electronics Better. (2015), IPC-J-STD-020E: <em>Clasificación de la sensibilidad a la humedad / reflujo de dispositivos de montaje superficial no herméticos</em>.',
-      link:
-        'https://shop.ipc.org/general-electronics/standards/j020-0-e-spanish',
     },
     {
       referencia:
@@ -481,8 +469,7 @@ export default {
     {
       referencia:
         'Moko technology, (2021), <em>Encapsulado de PCB VS Revestimiento conformado</em>. ',
-      link:
-        'https://www.mokotechnology.com/es/pcb-potting-vs-conformal-coating/',
+      link: 'https://www.mokotechnology.com/pcb-potting-vs-conformal-coating/',
     },
     {
       referencia:
