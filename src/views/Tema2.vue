@@ -184,7 +184,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-md-8.zi2.tarjeta(style="background-color: #ffeed3").p-5
-        p Es un proceso en el cual se unen dos o más piezas, fundiendo un material que aporta alguna sustancia igual o parecida a ellos. En electrónica se utilizan las soldaduras blandas, las cuales funden a menos de 200°C, encontrando la soldadura de estaño como la principal utilizada en este tipo de ensambles,. (IPC Build Electronics Better, 2010).
+        p Es un proceso en el cual se unen dos o más piezas, fundiendo un material que aporta alguna sustancia igual o parecida a ellos. En electrónica se utilizan las soldaduras blandas, las cuales funden a menos de 200°C, encontrando la soldadura de estaño como la principal utilizada en este tipo de ensambles (IPC Build Electronics Better, 2010).
         p.mb-0 A continuación, se presentan algunas de las normas a tener en cuenta para la soldadura en electrónica:
       .col-md-4.trright.zi1
         img(src='@/assets/curso/temas/t2/f11.svg', alt='circuito impreso')
@@ -195,20 +195,20 @@
           .col-md-3.mb-4.mb-md-0
             img(src='@/assets/curso/temas/t2/f12.png', alt='')
           .col-md-6
-            p IPC-J-STD-001H es reconocido mundialmente por sus criterios sobre procesos y materiales de soldadura. Actualizado con participantes de 27 países que proporcionan información y experiencia, la norma IPC-J-STD-001H trae los últimos criterios a la industria, incluyendo pautas sobre el uso de rayos X para inspeccionar condiciones de soldadura en orificios con soporte que no son visibles bajo ningún otro medio. Es imprescindible para aquellos en la industria electrónica con un interés en el proceso y los criterios de aceptación para ensambles eléctricos y electrónicos. (IPC Build Electronics Better, 2020)
+            p IPC-J-STD-001H es reconocido mundialmente por sus criterios sobre procesos y materiales de soldadura. Actualizado con participantes de 27 países que proporcionan información y experiencia, la norma IPC-J-STD-001H trae los últimos criterios a la industria, incluyendo pautas sobre el uso de rayos X para inspeccionar condiciones de soldadura en orificios con soporte que no son visibles bajo ningún otro medio. Es imprescindible para aquellos en la industria electrónica con un interés en el proceso y los criterios de aceptación para ensambles eléctricos y electrónicos (IPC Build Electronics Better, 2020).
       .py-4.py-md-5(titulo="IPC-J-STD-001HS: Suplemento del IPC J-STD-001H")
         .row.justify-content-around.align-items-center
           .col-md-3.mb-4.mb-md-0
             img(src='@/assets/curso/temas/t2/f13.png', alt='')
           .col-md-6
             h4 Requisitos para ensambles eléctricos y electrónicos soldados para aplicaciones espaciales y militares de dispositivos electrónicos
-            p Esta norma establece los requisitos del proceso y los criterios de aceptación de los conjuntos electrónicos, (IPC Build Electronics Better, 2021)
+            p Esta norma establece los requisitos del proceso y los criterios de aceptación de los conjuntos electrónicos (IPC Build Electronics Better, 2021).
       .py-4.py-md-5(titulo="Norma IPC-J-STD-001G-AM1: J-STD-001G-AM1-SP")
         .row.justify-content-around.align-items-center
           .col-md-3.mb-4.mb-md-0
             img(src='@/assets/curso/temas/t2/f14.png', alt='')
           .col-md-6
-            p Provee requisitos para materiales de soldadura y procesos para ensambles, establece los requisitos del proceso y los criterios de aceptación de los conjuntos electrónicos, (IPC Build Electronics Better, 2010)
+            p Provee requisitos para materiales de soldadura y procesos para ensambles, establece los requisitos del proceso y los criterios de aceptación de los conjuntos electrónicos (IPC Build Electronics Better, 2010).
 
     h3.titulo-tercero(data-aos='fade-right')
       i.fas.fa-square.cab.me-2 
